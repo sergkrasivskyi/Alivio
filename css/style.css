@@ -2,13 +2,17 @@
 :root {
     --fz-main: 20px;
     --fw-main: 400;
-    }
+}
 body {
     max-width: 1920px;
     margin: 30px auto;
     font-family: lato, sans-serif;
     font-size: var(--fz-main);
     font-weight: var(--fw-main);
+}
+h1 {
+    margin: 0;
+    padding: 0;
 }
 img {
     max-width: 100%;
@@ -30,7 +34,8 @@ img {
     align-items: center;
     margin-top: 17px;
     margin-bottom: 17px;
-    
+    text-transform: capitalize;
+
     /* transform: rotate(0deg); */
 }
 .logo {
@@ -86,7 +91,8 @@ img {
     line-height: 1.25;
     text-align: center;
     color: #ffffff;
-    padding: 13px 50px;
+    padding: 13px 45px;
+    text-transform: inherit;
 
     background: #01996d;
     border: 1px solid #01996d;
@@ -95,9 +101,19 @@ img {
 /* / Header */
 .hero {
 }
+.hero-bg {
+    background-image: url('./../images/section1-bg.jpg');
+    background-size: cover;
+}
 .container {
 }
 .hero-title {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1.138;
+
+    color: #01996d;
 }
 .hero-txt {
 }
