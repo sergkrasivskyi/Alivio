@@ -1,2 +1,105 @@
+@import "fonts.css";
+:root {
+    --fz-main: 20px;
+    --fw-main: 400;
+    }
+body {
+    max-width: 1920px;
+    margin: 30px auto;
+    font-family: lato, sans-serif;
+    font-size: var(--fz-main);
+    font-weight: var(--fw-main);
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+}
+.container {
+    padding-left: 14.3%;
+    padding-right: 14.3%;
+}
+/* Header */
+.header {
+    /* justify-content: space-between; */
+    background: #ffffff;
+    border: 1px solid #d6d6d6;
+}
+.top-line {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    
+    /* transform: rotate(0deg); */
+}
+.logo {
+    flex: 0 0 81px;
+    margin-right: 12.55%;
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    flex: 0 0 40.66%;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-right: 20.65%;
 
+    color: #292929;
+}
+.menu-list {
+    display: flex;
+    column-gap: 12.5%;
+}
+.menu-list li {
+    display: inline-block;
+}
+.menu-list :first-child {
+    flex: 0 0 96px;
+}
 
+.menu-item {
+    display: block;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #292929;
+}
+.sign-button {
+    flex: 0 0 20.22%;
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+.sign {
+    display: inline-block;
+    line-height: 1.2;
+    flex: 0 0 59px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.button {
+    flex: 0 0 183px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    color: #ffffff;
+    padding: 13px 50px;
+
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+}
+/* / Header */
+.hero {
+}
+.container {
+}
+.hero-title {
+}
+.hero-txt {
+}
+.hero-btn {
+}
