@@ -1,4 +1,5 @@
-@import "fonts.css";
+@import "./fonts.css";
+@import "./nullstyle.css";
 :root {
     --fz-main: 20px;
     --fw-main: 400;
@@ -87,7 +88,9 @@ img {
 }
 .button {
     flex: 0 0 183px;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-family: inherit;
+    font-size: inherit;
     line-height: 1.25;
     text-align: center;
     color: #ffffff;
@@ -141,10 +144,13 @@ img {
 }
 .hero-btn {
     font-family: inherit;
+    font-size: inherit;
     max-width: 227px;
     color: #ffffff;
-    line-height: 1.2;
-    padding: 20px 48px;
+    line-height: 1.25;
+    text-transform: capitalize;
+
+    padding: 18px 48px;
     background: #01996d;
     border: 1px solid #01996d;
     border-radius: 4px;
