@@ -7,7 +7,7 @@
 body {
     max-width: 1920px;
     margin: 30px auto;
-    font-family: lato, sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: var(--fz-main);
     font-weight: var(--fw-main);
 }
@@ -89,8 +89,8 @@ img {
 .button {
     flex: 0 0 183px;
     /* font-weight: 400; */
-    font-family: inherit;
-    font-size: inherit;
+    /* font-family: inherit; */
+    /* font-size: inherit; */
     line-height: 1.25;
     text-align: center;
     color: #ffffff;
@@ -143,8 +143,8 @@ img {
     line-height: 1.55;
 }
 .hero-btn {
-    font-family: inherit;
-    font-size: inherit;
+    /* font-family: inherit; */
+    /* font-size: inherit; */
     max-width: 227px;
     color: #ffffff;
     line-height: 1.25;
