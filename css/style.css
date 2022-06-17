@@ -7,7 +7,7 @@
 body {
     max-width: 1920px;
     margin: 30px auto;
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     font-size: var(--fz-main);
     font-weight: var(--fw-main);
 }
@@ -102,22 +102,12 @@ img {
     border-radius: 4px;
 }
 /* / Header */
+/* Hero */
 .hero {
     height: 900px;
     background-image: url("./../images/section1-bg.jpg");
     background-size: cover;
     padding-top: 8.96%;
-}
-.hero-bg {
-    /* height: 800px; */
-    /* background-position: 130% 150%; */
-    /* background-image: url("./../images/section1-bg.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 600px; */
-    /* background-attachment: fixed; */
-}
-.container {
-    
 }
 .hero-txt {
     /* margin-top: 175px; */
@@ -155,3 +145,93 @@ img {
     border: 1px solid #01996d;
     border-radius: 4px;
 }
+/* -- / Hero */
+
+/* Article */
+.how-it-works {
+}
+.article-grid {
+    display: grid;
+    /* grid-template: repeat(5, 1fr) / repeat(3, 1fr); */
+    grid-template-rows: 15% 15% 30% 25% 15%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "article-header article-header article-header"
+        "column1 . column3"
+        "column1 column2 column3"
+        "column1 column2 column3"
+        ". column2 .";
+        column-gap: 95px;
+}
+.article-header {
+    grid-area: article-header;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"article-sub-title ." 
+                        "article-title article-txt";
+    column-gap: 135px;
+}
+.column1 {
+    grid-area: column1;
+}
+.column2 {
+    grid-area: column2;
+}
+.column3 {
+    grid-area: column3;
+}
+
+.article-sub-title {
+    grid-area: article-sub-title;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.57;
+    color: #424242;
+}
+.article-title {
+    grid-area: article-title;
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.57;
+    color: #01996d;
+}
+.article-txt {
+    grid-area: article-txt;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #424242;
+}
+.article-column {
+}
+.column-number {
+    font-family: "Georgia";
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 1.5;
+
+    color: rgba(1, 153, 109, 0.2);
+}
+.column-title {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+
+    color: #000000;
+}
+.column-txt {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: #424242;
+}
+.column-img {
+}
+/* --/ Article */
