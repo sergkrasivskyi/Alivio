@@ -140,6 +140,7 @@ img {
     line-height: 1.55;
 }
 .hero-btn {
+    font-family: inherit;
     max-width: 227px;
     color: #ffffff;
     line-height: 1.2;
