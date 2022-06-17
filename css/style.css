@@ -100,12 +100,29 @@ img {
 }
 /* / Header */
 .hero {
+    height: 900px;
+    background-image: url("./../images/section1-bg.jpg");
+    background-size: cover;
+    padding-top: 19.55%;
 }
 .hero-bg {
-    background-image: url('./../images/section1-bg.jpg');
-    background-size: cover;
+    /* height: 800px; */
+    /* background-position: 130% 150%; */
+    /* background-image: url("./../images/section1-bg.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 600px; */
+    /* background-attachment: fixed; */
 }
 .container {
+    
+}
+.hero-txt {
+    /* margin-top: 175px; */
+    max-width: 440px;
+    max-height: 384px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
 .hero-title {
     font-family: "Georgia";
@@ -114,8 +131,20 @@ img {
     line-height: 1.138;
 
     color: #01996d;
+
+    /* margin-bottom: 30px; */
 }
-.hero-txt {
+.hero-txt p {
+    text-align: left;
+    color: #484848;
+    line-height: 1.55;
 }
 .hero-btn {
+    max-width: 227px;
+    color: #ffffff;
+    line-height: 1.2;
+    padding: 20px 48px;
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
 }
