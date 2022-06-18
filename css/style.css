@@ -108,6 +108,7 @@ img {
     background-image: url("./../images/section1-bg.jpg");
     background-size: cover;
     padding-top: 8.96%;
+    margin-bottom: 169px;
 }
 .hero-txt {
     /* margin-top: 175px; */
@@ -149,6 +150,7 @@ img {
 
 /* Article */
 .how-it-works {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .article-grid {
     display: grid;
@@ -217,14 +219,30 @@ img {
 
     color: rgba(1, 153, 109, 0.2);
 }
-.column-double{
+.big-number02 {
+    filter: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.column-double {
     position: relative;
     width: 100%;
     max-height: 30%;
 }
 .column-title {
     position: absolute;
-    left: 22%;
+    left: 20%;
+    top: 60%;
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.column3-title {
+    position: absolute;
+    left: 31%;
     top: 60%;
     font-family: "Georgia";
     font-weight: 700;
@@ -234,12 +252,21 @@ img {
     color: #000000;
 }
 .column-txt {
+    margin-bottom: 50px;
     font-family: "Lato";
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
 
     color: #424242;
+}
+.picture-insert {
+    position: relative;
+}
+.inserting-picture {
+    position: absolute;
+    right: 0;
+    top: 46%;
 }
 .column-img {
 }
