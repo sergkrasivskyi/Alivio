@@ -202,7 +202,7 @@ img {
 }
 .article-txt {
     grid-area: article-txt;
-    font-family: "Lato";
+    font-family: "lato";
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
@@ -253,7 +253,7 @@ img {
 }
 .column-txt {
     margin-bottom: 50px;
-    font-family: "Lato";
+    font-family: "lato";
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
@@ -294,7 +294,7 @@ img {
     margin-bottom: 33px;
 }
 .success-txt {
-    font-family: "Lato";
+    font-family: "lato";
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
@@ -307,7 +307,7 @@ img {
     border: 1px solid #01996d;
     border-radius: 4px;
     padding: 20px 48px;
-    font-family: "Lato";
+    font-family: "lato";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
