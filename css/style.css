@@ -271,3 +271,52 @@ img {
 .column-img {
 }
 /* --/ Article */
+/* Success story */
+.success-story {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #245852;
+    color: #ffffff;
+    padding-top: 229px;
+    padding-bottom: 176px;
+}
+.success-description {
+}
+.success-title {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.57;
+
+    margin-bottom: 33px;
+}
+.success-txt {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.57;
+
+    margin-bottom: 57px;
+}
+.success-btn {
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    padding: 20px 48px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.25;
+    color: inherit;
+}
+.success-video {
+    max-width: 895.84px;
+    max-height: 516.11px;
+}
+
+/* --/ Success story */
