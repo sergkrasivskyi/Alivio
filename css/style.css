@@ -161,15 +161,16 @@ img {
         "column1 column2 column3"
         "column1 column2 column3"
         ". column2 .";
-        column-gap: 95px;
+    column-gap: 95px;
 }
 .article-header {
     grid-area: article-header;
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:"article-sub-title ." 
-                        "article-title article-txt";
+    grid-template-areas:
+        "article-sub-title ."
+        "article-title article-txt";
     column-gap: 135px;
 }
 .column1 {
@@ -216,7 +217,15 @@ img {
 
     color: rgba(1, 153, 109, 0.2);
 }
+.column-double{
+    position: relative;
+    width: 100%;
+    max-height: 30%;
+}
 .column-title {
+    position: absolute;
+    left: 22%;
+    top: 60%;
     font-family: "Georgia";
     font-weight: 700;
     font-size: 30px;
