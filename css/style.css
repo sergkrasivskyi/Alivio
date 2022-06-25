@@ -209,8 +209,7 @@ img {
 
 	color: #424242;
 }
-.article-column {
-}
+
 .column-number {
 	font-family: "Georgia";
 	font-weight: 400;
@@ -268,8 +267,7 @@ img {
 	right: 0;
 	top: 46%;
 }
-.column-img {
-}
+
 /* --/ Article */
 /* Success story */
 .success-story {
@@ -281,8 +279,6 @@ img {
 	color: #ffffff;
 	padding-top: 229px;
 	padding-bottom: 176px;
-}
-.success-description {
 }
 .success-title {
 	font-family: "Georgia";
@@ -323,8 +319,6 @@ img {
 .our-product {
 	margin-bottom: 168px;
 }
-.container {
-}
 .product-wrapper {
 	display: flex;
 	gap: 80px;
@@ -337,9 +331,6 @@ img {
 .product-description {
 	order: 1;
 	width: 42.63%;
-}
-.product-collage {
-	/* order: 0; */
 }
 .product-image {
 	margin-left: 60px;
@@ -477,9 +468,6 @@ img {
 .footer {
 	background: #245852;
 }
-.logo-footer {
-	}
-
 .menu-footer {
 	padding-top: 95px;
 	padding-bottom: 144px;
