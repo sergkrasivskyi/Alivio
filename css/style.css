@@ -105,7 +105,7 @@ img {
 /* Hero */
 .hero {
 	height: 900px;
-	background-image: url("./../images/section1-bg.jpg");
+	background-image: url("./../images/section1-bg_.jpg");
 	background-size: cover;
 	padding-top: 8.96%;
 	margin-bottom: 169px;
@@ -325,7 +325,6 @@ img {
 	position: relative;
 	margin-top: 120px;
 	max-height: 647px;
-	/* margin-bottom: 242px; */
 	padding-bottom: 74px;
 }
 .product-description {
@@ -335,15 +334,17 @@ img {
 .product-image {
 	margin-left: 60px;
 	width: 47%;
-	/* height: 100%; */
-	/* /* width: 638.69px; */
-	/* max-height: 573.26px;  */
 	background: rgba(1, 153, 109, 0.2) no-repeat;
 	border-radius: 18.1125px;
 	order: 0;
+	text-align: center;
 }
 .product-image img {
-	max-height: 100%;
+	display: inline-block;
+	max-height: 455px;
+	margin-top: 119px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .product-sub-title {
 	font-family: "Lato";
@@ -415,11 +416,18 @@ img {
 
 	color: #000000;
 	/* margin-top: 20px; */
-	margin-bottom: 21px;
+	margin-bottom: 7px;
 }
 .card-img {
-	text-align: center;
-	margin-bottom: 10px;
+	width: 57px;
+	height: 57px;
+	margin: 0 auto 10px;
+}
+.card-divider {
+	border-bottom: 0.745942px solid #000000;
+	margin: 0px auto 13px;
+	height: 0px;
+	max-width: 110px;
 }
 .card-img img {
 	border-radius: 50%;
@@ -477,7 +485,7 @@ img {
 	flex-direction: column;
 	gap: 60px;
 }
-.menu-item--footer{
+.menu-item--footer {
 	font-weight: 600;
 	font-size: 25px;
 	line-height: 1.2;
